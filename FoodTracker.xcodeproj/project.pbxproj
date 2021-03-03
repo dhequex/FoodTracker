@@ -13,6 +13,8 @@
 		AA74534325EFA9E9007A1554 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA74534225EFA9E9007A1554 /* Preview Assets.xcassets */; };
 		AA74534D25EFCEAC007A1554 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = AA74534B25EFCEAC007A1554 /* locations.json */; };
 		AA74534E25EFCEAC007A1554 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = AA74534C25EFCEAC007A1554 /* tips.json */; };
+		AA74535125EFD9BE007A1554 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74535025EFD9BE007A1554 /* Location.swift */; };
+		AA74535425EFDE83007A1554 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74535325EFDE83007A1554 /* Locations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AA74534425EFA9E9007A1554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA74534B25EFCEAC007A1554 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = ../../../../Downloads/Assets/locations.json; sourceTree = "<group>"; };
 		AA74534C25EFCEAC007A1554 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tips.json; path = ../../../../Downloads/Assets/tips.json; sourceTree = "<group>"; };
+		AA74535025EFD9BE007A1554 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		AA74535325EFDE83007A1554 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				AA74533B25EFA9E8007A1554 /* FoodTrackerApp.swift */,
 				AA74533D25EFA9E8007A1554 /* ContentView.swift */,
+				AA74535325EFDE83007A1554 /* Locations.swift */,
+				AA74535025EFD9BE007A1554 /* Location.swift */,
 				AA74533F25EFA9E9007A1554 /* Assets.xcassets */,
 				AA74534B25EFCEAC007A1554 /* locations.json */,
 				AA74534C25EFCEAC007A1554 /* tips.json */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA74533E25EFA9E8007A1554 /* ContentView.swift in Sources */,
+				AA74535125EFD9BE007A1554 /* Location.swift in Sources */,
+				AA74535425EFDE83007A1554 /* Locations.swift in Sources */,
 				AA74533C25EFA9E8007A1554 /* FoodTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
