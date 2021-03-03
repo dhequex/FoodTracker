@@ -20,7 +20,7 @@ struct Worldview: View {
                     Image(location.country)
                         .resizable()
                         .cornerRadius(10)
-                        .frame(width:80, height: 40)
+                        .frame(width:60, height: 40)
                         .shadow(radius:3)
                 }
             }
