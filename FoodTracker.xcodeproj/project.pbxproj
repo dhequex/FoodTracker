@@ -11,6 +11,8 @@
 		AA74533E25EFA9E8007A1554 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74533D25EFA9E8007A1554 /* ContentView.swift */; };
 		AA74534025EFA9E9007A1554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA74533F25EFA9E9007A1554 /* Assets.xcassets */; };
 		AA74534325EFA9E9007A1554 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA74534225EFA9E9007A1554 /* Preview Assets.xcassets */; };
+		AA74534D25EFCEAC007A1554 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = AA74534B25EFCEAC007A1554 /* locations.json */; };
+		AA74534E25EFCEAC007A1554 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = AA74534C25EFCEAC007A1554 /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AA74533F25EFA9E9007A1554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA74534225EFA9E9007A1554 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA74534425EFA9E9007A1554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA74534B25EFCEAC007A1554 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = ../../../../Downloads/Assets/locations.json; sourceTree = "<group>"; };
+		AA74534C25EFCEAC007A1554 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tips.json; path = ../../../../Downloads/Assets/tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				AA74533B25EFA9E8007A1554 /* FoodTrackerApp.swift */,
 				AA74533D25EFA9E8007A1554 /* ContentView.swift */,
 				AA74533F25EFA9E9007A1554 /* Assets.xcassets */,
+				AA74534B25EFCEAC007A1554 /* locations.json */,
+				AA74534C25EFCEAC007A1554 /* tips.json */,
 				AA74534425EFA9E9007A1554 /* Info.plist */,
 				AA74534125EFA9E9007A1554 /* Preview Content */,
 			);
@@ -127,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA74534325EFA9E9007A1554 /* Preview Assets.xcassets in Resources */,
+				AA74534E25EFCEAC007A1554 /* tips.json in Resources */,
+				AA74534D25EFCEAC007A1554 /* locations.json in Resources */,
 				AA74534025EFA9E9007A1554 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
